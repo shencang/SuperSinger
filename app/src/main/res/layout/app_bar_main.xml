@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_main_back"
+    tools:context="cn.edu.nc.music.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/slidebar"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_main_caidan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="145dp"
+            android:text="曲味"
+            android:textColor="@color/colormain"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/main_search"
+            android:layout_width="20dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="153dp"
+            android:background="@drawable/ic_main_search" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="323dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="323dp"
+            android:layout_height="36dp"
+            android:background="@drawable/shape"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/yueguan"
+                android:layout_width="106dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_main_music" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="乐馆"
+                    android:textColor="@color/colormain" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/paihang"
+                android:layout_width="106dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_main_paihang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="排行"
+                    android:textColor="@color/colormain" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/tiaozhan"
+                android:layout_width="106dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_main_taiozhan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="1dp"
+                    android:text="挑战"
+                    android:textColor="@color/colormain" />
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/main_framecontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="UnknownId">
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape2"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/singer"
+                android:layout_width="200dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/playtouxaing"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/maobuyi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="15dp"
+                    android:text="在多年以后"
+                    android:textColor="@color/colormain" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginTop="39dp"
+                    android:text="仇心诚-我差点是歌手"
+                    android:textColor="@color/colormain2" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/play"
+                android:layout_width="182dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/previous_song"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/ic_main_nextsongleft" />
+
+                <ImageView
+                    android:id="@+id/music_playorpause"
+                    android:layout_width="39dp"
+                    android:layout_height="39dp"
+                    android:layout_marginLeft="79dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/ic_main_play" />
+
+                <ImageView
+                    android:id="@+id/next_song"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="139dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/ic_main_nextsongright" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

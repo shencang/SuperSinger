@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_search_back"
+    tools:context="cn.edu.nc.music.Activity.search"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/search_goback"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/ic_searchgoback"
+            />
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape3"
+            android:layout_marginLeft="20dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:paddingTop="1dp"
+                android:hint="请输入歌曲/歌手名"
+                android:textSize="14dp"
+                android:background="@null"
+                />
+            <ImageView
+                android:id="@+id/challenge_search"
+                android:layout_width="28dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_search"
+                android:layout_marginLeft="136dp"
+                android:layout_marginTop="2dp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="129dp"
+            android:background="@drawable/ic_main_challenge"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-80dp"
+            android:text="快来挑战吧~"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/shape2"
+        >
+        <FrameLayout
+            android:id="@+id/singer"
+            android:layout_width="200dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/maobuyi"
+                android:layout_marginTop="12dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="在多年以后"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colormain"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="39dp"
+                android:textColor="@color/colormain2"
+                android:text="仇心诚-我差点是歌手"
+                />
+
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/play"
+            android:layout_width="182dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_main_nextsongleft"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="24dp"/>
+            <ImageView
+                android:layout_width="39dp"
+                android:layout_height="39dp"
+                android:background="@drawable/ic_main_play"
+                android:layout_marginLeft="79dp"
+                android:layout_marginTop="16dp"/>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_main_nextsongright"
+                android:layout_marginLeft="139dp"
+                android:layout_marginTop="24dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

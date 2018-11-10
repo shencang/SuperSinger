@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.nc.music.Fragment.FragmentPaihang">
+    <ScrollView
+        android:id="@+id/paihanghuadong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="194dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:id="@+id/custom1"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/xuezhiqian" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="王哈哈"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/champion"
+                    android:layout_marginLeft="190dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/custom2"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/zhoujielun" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="向日葵"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/yajun"
+                    android:layout_marginLeft="190dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/custom3"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/linjunjie" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="上帝咬过的不知道"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <ImageView
+                    android:layout_width="39dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/third"
+                    android:layout_marginLeft="130dp"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/custom4"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/zhuangxinyan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="西萌吹雪"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="28dp"
+                    android:text="4"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="200dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/custom5"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/maobuyi" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="白茶、清欢"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="28dp"
+                    android:text="5"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="187dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/custom6"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/zhuangxinyan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="海以南不再蓝"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="28dp"
+                    android:text="6"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="171dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/custom7"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/lironghao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="DAEMON"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="28dp"
+                    android:text="7"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="196dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/custom8"
+                android:layout_width="395dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_yueguan_singerback"
+                >
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:background="@drawable/zhoujielun" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="9dp"
+                    android:text="小饼干"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="16dp"
+                    android:layout_height="28dp"
+                    android:text="8"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="220dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

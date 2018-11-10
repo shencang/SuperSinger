@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yueguanshuaxin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="194dp"
+    tools:context="cn.edu.nc.music.Fragment.FragmentYueguan">
+
+    <!-- <FrameLayout
+         android:layout_width="match_parent"
+         android:layout_height="90dp"
+         android:layout_marginTop="194dp">-->
+
+    <LinearLayout
+        android:id="@+id/songs"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="49dp"
+        android:background="@drawable/ic_yueguan_songback"
+        >
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="19dp"
+            android:background="@drawable/ic_yueguan_singerbai"
+            android:layout_gravity="center"
+            android:layout_marginLeft="46dp"
+            />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="17dp"
+            android:text="单曲"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/colormain"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/singers"
+        android:layout_width="153dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="189dp"
+        android:background="@drawable/ic_yueguan_singerback"
+        >
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="19dp"
+            android:background="@drawable/ic_yueguan_songtubiaozise"
+            android:layout_gravity="center"
+            android:layout_marginLeft="46dp"
+            />
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="17dp"
+            android:text="歌手"
+            android:layout_gravity="center"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/coloryueguansinger"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="118dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_yueguan_remen"
+            />
+        <TextView
+            android:layout_width="78dp"
+            android:layout_height="19dp"
+            android:text="最新热门"
+            android:textColor="@color/coloryueguanremen"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="青花瓷"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-40dp"
+                    android:layout_marginTop="36dp"
+                    android:text="周杰伦-我很忙"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-59dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="背景东路的日子"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-85dp"
+                    android:layout_marginTop="36dp"
+                    android:text="群星-南京外国语大学在校学生原创"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-68dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Beautiful Love"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-75dp"
+                    android:layout_marginTop="36dp"
+                    android:text="蔡健雅-T.Time新歌+精选"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-15dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="发如雪"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-34dp"
+                    android:layout_marginTop="36dp"
+                    android:text="周杰伦-我很忙"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-59dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="七里香"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-34dp"
+                    android:layout_marginTop="36dp"
+                    android:text="周杰伦-我很忙"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-59dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="你好吗"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-34dp"
+                    android:layout_marginTop="36dp"
+                    android:text="周杰伦-我很忙"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-65dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="我爱你"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-34dp"
+                    android:layout_marginTop="36dp"
+                    android:text="周杰伦-我很忙"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-65dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="359dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ic_yueguan_gundongback2">
+
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="17dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="你在哪"
+                    android:textColor="@color/coloryueguanremen" />
+
+                <TextView
+                    android:layout_width="93dp"
+                    android:layout_height="14dp"
+                    android:layout_marginLeft="-34dp"
+                    android:layout_marginTop="36dp"
+                    android:text="周杰伦-我很忙"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-65dp"
+                    android:layout_marginTop="22dp"
+                    android:background="@drawable/ic_yueguan_mv" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

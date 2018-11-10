@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/local_music"
+            android:icon="@drawable/ic_menu_music"
+            android:title="本地音乐" />
+        <item
+            android:id="@+id/dowland"
+            android:icon="@drawable/ic_menu_dowland"
+            android:title="已下载" />
+        <item
+            android:id="@+id/nearly_play"
+            android:icon="@drawable/ic_menu_play"
+            android:title="最近播放" />
+        <item
+            android:id="@+id/I_like"
+            android:icon="@drawable/ic_menu_like"
+            android:title="我喜欢" />
+    </group>
+
+    <item android:title="AboutMe">
+        <menu>
+            <item
+                android:id="@+id/Messsage"
+                android:icon="@drawable/ic_menu_message"
+                android:title="我的消息" />
+            <item
+                android:id="@+id/challenge"
+                android:icon="@drawable/ic_menu_challenge"
+                android:title="我的挑战" />
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_menu_info"
+                android:title="我的资料" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="我的设置" />
+        </menu>
+    </item>
+
+</menu>
